@@ -14,7 +14,7 @@
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- Enable annotation support -->
-    <mvc:annotation-driven />
+    <mvc:annotation-config />
 
     <!-- Scan controller classes -->
     <context:component-scan base-package="com.example.controller" />
